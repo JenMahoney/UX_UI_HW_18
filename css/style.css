@@ -145,9 +145,9 @@ nav ul li a:hover {
 
 
 .flexItem img.itemImage {
-    width: 50px; /* Adjust the width as needed */
+    width: 90px; 
     height: auto;
-    margin-bottom: 10px; 
+    margin-bottom: 0px; 
 }
 
 .flexItem h4 {
@@ -157,8 +157,9 @@ nav ul li a:hover {
 }
 
 .flexItem p {
-    font-size: 1em;
+    font-size: .9em;
     color: #666;
+    line-height: 130%;
 }
 
 /* Work Grid CSS */
@@ -198,7 +199,7 @@ nav ul li a:hover {
 
 #travel {
     grid-area: travel;
-    background-image: url("")
+    background-image: url("/images/Travel-App.jpg")
 }
 
 .workGridArea {
@@ -221,57 +222,71 @@ nav ul li a:hover {
 
 
   /* Footer CSS */  
-footer {
-    background-color: #202020;
-    color: #fff;
+  .footer {
     text-align: center;
-    padding: 20px;
+    padding: 20px 0;
+}
+.footerNav {
+    background-color: #202020;
+    padding: 20px 0;
 }
 
-footer ul {
+.footer ul {
     list-style: none;
     display: flex;
     justify-content: center;
-    margin-bottom: 20px;
 }
 
-footer ul li {
+.footer ul li {
     margin: 0 10px;
 }
 
-footer ul li a {
+.footer ul li a {
     color: #fff;
     text-decoration: none;
 }
 
-footer ul li a:hover {
+.footer ul li a:hover {
     color: #44CECC;
 }
 
-footer h2 {
+.footerInfo {
+    background-color: #035E7B;
+    padding: 20px 0;
+}
+
+.footer h2 {
     margin-bottom: 20px;
-    font-size: 1.5em;
+    font-size: 2em;
     font-family: 'Linden Hill', serif;
+    color: white;
 
 }
 
-footer .social-icons {
+
+.footer .socialIcons {
     margin-bottom: 20px;
 }
 
-footer .social-icons a {
-    margin: 0 10px;
-    color: #fff;
+
+.footer .socialIcons a {
+    margin: 0 20px;
+    color: white;
     font-size: 1.5em;
     text-decoration: none;
+    
+    
 }
 
-footer .social-icons a:hover {
+.footer .socialIcons a:hover {
     color: #44CECC;
+    cursor: pointer;
+
 }
 
-footer .copyright {
+.footer .copyright {
     font-size: 0.8em;
+    color: white;
 }
 
 /* Media Queries CSS */
