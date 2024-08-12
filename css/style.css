@@ -199,7 +199,7 @@ nav ul li a:hover {
 
 #travel {
     grid-area: travel;
-    background-image: url("../UX_UI_HW_18/images/Travel-App.jpg")
+    background-image: url("../UX_UI_HW_18/images/Travel-App.jpg");
 }
 
 .workGridArea {
@@ -328,7 +328,7 @@ nav ul li a:hover {
         "wheelwise"
         "weather"
         "beasties"
-        "travel"
+        "travel";
     }
 
     .navigation {
